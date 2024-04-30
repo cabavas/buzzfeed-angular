@@ -1,27 +1,38 @@
-# BuzzfeedAngular
+# README
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+## Clone do BuzzFeed em Angular
 
-## Development server
+Este é um projeto simples desenvolvido em Angular que consiste em um clone do popular site BuzzFeed. Utiliza diretivas, componentes e data binding para exibir perguntas, respostas e resultados, dinamicamente aos usuários.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Imagem do projeto](src/assets/imgs/preview.png)
 
-## Code scaffolding
+## Funcionalidades Principais
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Perguntas Dinâmicas**: As perguntas são carregadas dinamicamente a partir de um arquivo JSON.
+- **Respostas Interativas**: Os usuários podem selecionar entre várias opções de resposta para cada pergunta.
+- **Feedback de Resultado**: Com base nas respostas do usuário, um resultado é gerado e exibido.
 
-## Build
+## Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Angular**: Framework JavaScript para construção de interfaces de usuário.
+- **HTML/CSS**: Linguagens padrão para marcação e estilização de páginas web.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática e outros recursos à linguagem.
+- **JSON**: Formato leve de troca de dados utilizado para armazenar perguntas, respostas e resultados.
 
-## Running unit tests
+## Como Executar o Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone este repositório para sua máquina local.
+2. Certifique-se de ter o Node.js e o Angular CLI instalados.
+3. Navegue até o diretório do projeto e execute `npm install` para instalar as dependências.
+4. Execute `ng serve` para iniciar o servidor de desenvolvimento.
+5. Abra seu navegador e acesse `http://localhost:4200` para visualizar o projeto.
 
-## Running end-to-end tests
+## Estrutura do Projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **src/app/components**: Contém os componentes Angular utilizados para exibir perguntas e respostas.
+- **src/assets/data**: Armazena arquivos JSON contendo as perguntas, respostas e resultados.
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Nota:** Este é um projeto de exemplo e não tem afiliação com o BuzzFeed.
+
